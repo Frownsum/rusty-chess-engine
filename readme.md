@@ -15,9 +15,12 @@ and thought it seemed like an interesting exercise.
 I decided to use cutechess for the GUI for now. Maybe I'll make my own later,
 but it seemed like a good way to start and compiled easily.
 
+Getting the bongcloud opening working was chosen for the inital work because
+it's simple and as long as the engine is white it's not preventable
+
 ### Goals
 
-* [ ] Write code that can submit 1 a4 ... 2 a2 to a UCI compatible GUI.
+* [*] Write code that can submit 1 a4 ... 2 a2 to a UCI compatible GUI.
 * [ ] Write a random move chess engine.
 * [ ] Write a chess engine that only strives to naively get to a good scoring position
 * [ ] Use the score evaluation to write minimax
